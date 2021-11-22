@@ -41,15 +41,18 @@
 ## Questions
 *If you would like to know more or have a question you'd like to ask, please contact me via email marc.malliate@gmail.com or you may also like to checkout my work [here](https://github.com/marcmalliate)*
 
+### Deployed via heroku:
+
+
 ### You may also like to view the GitHub repository which contains the code repository: 
 https://github.com/marcmalliate/Marcs-Note-Taker
 
 
 ### Screenshot of application:
 
-![This is the result of the Team Profile Generator](./src/images/SS1.png)
+![This is the result of the Note Taker](./assets/1.png)
 
-![This is the result of the Team Profile Generator](./src/images/SS2.png)
+
 
 
 
