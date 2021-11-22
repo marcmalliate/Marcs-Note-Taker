@@ -2,7 +2,7 @@
 const { readFromFile, readAndAppend, writeToFile } =  require('../helpers/fsUtils');
 const { v4:uuidv4 } = require('uuid');
 
-const notes = require('express').Router();
+const note = require('express').Router();
 
 // GET method for retrieving all the notes in db.json
 note.get('/', (req, res) => {
