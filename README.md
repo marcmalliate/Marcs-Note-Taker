@@ -41,7 +41,8 @@
 ## Questions
 *If you would like to know more or have a question you'd like to ask, please contact me via email marc.malliate@gmail.com or you may also like to checkout my work [here](https://github.com/marcmalliate)*
 
-### Deployed via heroku:
+### Deployed via Heroku
+https://marcs-note-taker.herokuapp.com/
 
 
 ### You may also like to view the GitHub repository which contains the code repository: 

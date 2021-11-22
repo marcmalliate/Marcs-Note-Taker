@@ -30,9 +30,9 @@ note.post('/', (req, res) => {
     
 });
 
-// DELETE method (bonus) for removing a note from the array
+// DELETE method 
 note.delete('/:id', (req, res) => {
     
 })
 
-module.exports = notes;qwq
+module.exports = notes
