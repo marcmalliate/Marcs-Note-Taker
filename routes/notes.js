@@ -2,7 +2,7 @@
 const { readFromFile, readAndAppend, writeToFile } =  require('../helpers/fsUtils');
 const { v4:uuidv4 } = require('uuid');
 
-const note = require('express').Router();
+const notes = require('express').Router();
 
 // GET method for retrieving all the notes in db.json
 note.get('/', (req, res) => {
@@ -30,9 +30,9 @@ note.post('/', (req, res) => {
     
 });
 
-// DELETE method 
+// DELETE method to be completed
 note.delete('/:id', (req, res) => {
     
 })
 
-module.exports = notes
+module.exports = notes 
