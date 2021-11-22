@@ -1,4 +1,4 @@
-// import required modules and packages
+// Import required modules and packages
 const { readFromFile, readAndAppend, writeToFile } =  require('../helpers/fsUtils');
 const { v4:uuidv4 } = require('uuid');
 
@@ -11,7 +11,7 @@ note.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-// POST method for creating and adding a new note to the note array
+// POST method to create and add a new note to the note array
 note.post('/', (req, res) => {
     console.log(req.body);
 
